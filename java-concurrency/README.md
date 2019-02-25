@@ -13,8 +13,7 @@
 * 线程池 ThreadPool
 * 并发容器
 
-* [锁 Lock](java-lock/java-lock.md)
-* [并发库 JCU](JCU/README.md)
+* [锁 Lock](java-lock/README.md)
 
 ## [线程调优](thread-improve/README.md)
 * 性能指标

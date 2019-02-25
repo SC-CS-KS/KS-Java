@@ -2,10 +2,9 @@
 
 ## JVM 锁机制
 
+* [对象锁](Object-Lock.md)
+
 * 自旋锁(Spin Lock)
-* 偏向锁(Biased Lock)
-* 轻量级锁(Lightweight Lock)
-* 重量级锁(Heavyweight Lock)
 
 ## 公平锁 和 非公平锁
 
@@ -24,3 +23,5 @@ ReentrantLock lock = new ReentrantLock(true) // 公平锁
 
 JUC 很多锁默认的策略都是非公平的。
 ```
+
+## [死锁](DeadLock.md)
