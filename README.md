@@ -1,4 +1,4 @@
-# Java Knowledge Systems
+# Java Knowledge System
 
 ## Java 编程范式
 * [Java OOP](java-paradigm/java-OOP/README.md)

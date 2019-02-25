@@ -1,15 +1,14 @@
 # Java Lock
 
-
 ## JVM 锁机制
+
 * 自旋锁(Spin Lock)
 * 偏向锁(Biased Lock)
 * 轻量级锁(Lightweight Lock)
 * 重量级锁(Heavyweight Lock)
 
-
-
 ## 公平锁 和 非公平锁
+
 ```md
 线程获取锁是否公平，是指线程是否能够按照申请加锁的顺序来获得锁。
 
