@@ -20,7 +20,7 @@
 * [Java GC](java-jvm/java-GC/README.md)
 
 ## Java 应用
-* [Java Web](java-web/README.md)
+* [Java Web](https://github.com/SunnnyChan/knowledge-Sys-of-web/tree/master/java-web)
 * [Java Component](java-component/README.md)
 
 ## Java 开发
