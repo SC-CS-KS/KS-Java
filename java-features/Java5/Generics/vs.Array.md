@@ -1,0 +1,17 @@
+# Generics vs. Array
+```java
+Java不能创建泛型数组，以下代码编译报错
+Som<String> [] soms = new Som<String>[8];
+```
+***为什么数组不支持泛型?***
+```md
+数组支持协变特性，放宽了编译时的类型检查。
+数组在创建的时候必须知道内部元素的类型，而且一直都会记得这个类型信息，每次往数组里添加元素，都会做类型检查。
+```
+```md
+Java 泛型是用擦除（Erasure）实现的，运行时类型参数会被擦掉。
+所以对于泛型数组，编译器看不到泛型的 String 类型参数，数组由于无法确定所持有元素的类型，所以不允许初始化。
+```
+## 参考
+* [类型转换 Covariance vs. Contravariance （协变 vs. 逆变）](https://github.com/SunnnyChan/sc.cs-notes/tree/master/language/java/java-features/Java/DataType)
+* [数组的协变特性 Array Covariance](https://github.com/SunnnyChan/sc.cs-notes/blob/master/language/java/java-DS-Algorithm/java-array/array_Covariance.md)
