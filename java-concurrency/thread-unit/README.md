@@ -89,3 +89,20 @@ setDaemon()传入true则会把线程一直保持在内存里面，除非JVM宕�
   */
  public final static int MAX_PRIORITY = 10;
 ```
+
+## 总结
+* wait vs. sleep
+```md
+wait 是Object类中的方法，而sleep是Thread类中的方法。
+sleep 是Thread类中的静态方法。无论是在a线程中调用b的sleep方法，还是b线程中调用a的sleep方法，谁调用，谁睡觉。
+
+最主要的是sleep方法调用之后，并没有释放锁。使得线程仍然可以同步控制。sleep不会让出系统资源。
+而wait是进入线程等待池中等待，让出系统资源。
+
+调用wait方法的线程，不会自己唤醒，需要线程调用 notify / notifyAll 方法唤醒等待池中的所有线程，才会进入就绪队列中等待系统分配资源。
+sleep方法会自动唤醒，如果时间不到，想要唤醒，可以使用interrupt方法强行打断。
+Thread.sleep(0) // 触发操作系统立刻重新进行一次CPU竞争。
+
+sleep可以在任何地方使用。而wait，notify，notifyAll只能在同步控制方法或者同步控制块中使用。
+sleep必须捕获异常，而wait，notify，notifyAll的不需要捕获异常。
+```
