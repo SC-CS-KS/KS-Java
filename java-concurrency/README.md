@@ -5,8 +5,7 @@
 ## [线程单元 Thread](thread-unit/README.md)
 
 ## [线程交互](thread-interact/README.md)
-* 线程交互方式
-* 线程安全
+## [线程安全](thread-safe/README.md)
 
 ## [线程工具](thread-tools/README.md)
 * 线程同步控制
