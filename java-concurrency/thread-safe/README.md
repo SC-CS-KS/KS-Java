@@ -19,7 +19,7 @@
 完全要求线程无状态比较难实现，必要的状态是无法避免的，那么就必须维护不同线程之间的不同状态。
 ThreadLocal 结构跟当前线程绑定，而且只对当前线程可见，完美解决了无共享状态的问题。
 ```
-> * [ThreadLocal](https://github.com/SunnnyChan/sc.drill-code/blob/master/java/java.util.concurrent/safe/ThreadLocal.md)
+> * [ThreadLocal](https://github.com/SunnnyChan/sc.drill-code/blob/master/java/java.util.concurrent/safe/threadLocal/README.md)
 
 * 不可变状态
 ```md
