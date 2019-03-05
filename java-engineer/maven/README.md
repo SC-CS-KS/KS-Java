@@ -41,6 +41,11 @@
 ```md
 将最终包复制到远程存储库以与其他开发人员和项目共享。
 ```
+## Maven CMD
+```shell
+$ mvn -Dmaven.test.skip=true package
+
+```
 
 ## Reference
 
