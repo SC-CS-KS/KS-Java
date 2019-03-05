@@ -1,5 +1,9 @@
 # Maven
 
+* [pom.xml](pom/README.md)
+
+* [plugins](plugins/README.md)
+
 ## [Build Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 ![](pic/build-life-cycle.png)
 
@@ -38,6 +42,6 @@
 将最终包复制到远程存储库以与其他开发人员和项目共享。
 ```
 
-
 ## Reference
+
 * [Maven Tutorial](https://howtodoinjava.com/maven/)
