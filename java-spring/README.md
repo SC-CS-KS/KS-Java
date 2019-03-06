@@ -28,3 +28,4 @@ Spring Webflux包含了对反应式 HTTP、服务器推送事件和 WebSocket �
 
 ## Resources
 * [Spring Tutorial](https://howtodoinjava.com/spring-boot-tutorials/)
+* [《史上最简单的 SpringCloud 教程》](https://github.com/forezp/SpringCloudLearning)
