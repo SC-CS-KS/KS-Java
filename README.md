@@ -10,10 +10,15 @@
 * [Generics](java-features/Java5/Generics/README.md)
 * [Annotation](java-features/Java5/Annotation/README.md)
 
+## [Java IO](java-IO/README.md)
+
 ## [Java 类库](java-lib/README.md)
 * [Guava]()
 
-## [Java IO](java-IO/README.md)
+## [Java Component](java-component/README.md)
+
+## [Java Framework](java-framework/README.md)
+* [Java Spring](java-engineer/java-spring/README.md)
 
 ## [Java 数据结构与算法](java-DS-Algorithm/README.md)
 * [Java Collections](java-DS-Algorithm/java-collection/README.md)
@@ -23,7 +28,6 @@
 
 ## Java 应用
 * [Java Web](https://github.com/SunnnyChan/knowledge-Sys-of-web/tree/master/java-web)
-* [Java Component](java-component/README.md)
 
 ## Java 开发
 * [Java Debug](java-dev/java-debug/README.md)
@@ -34,7 +38,6 @@
 * [Java 规范](java-dev/java-specification/README.md)
 
 ## Java 工程
-* [Java Spring](java-engineer/java-spring/README.md)
 * [Maven](java-engineer/maven/README.md)
 
 ## Resources

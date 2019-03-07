@@ -1,6 +1,7 @@
 # Java 规范
 
-* []
+## JSR Java Specification Requests (JSRs) 
+* [JSR-330 / Dependency Injection for Java](DI.md)
 
 * [JSR 220 / JPA (Java Persistence API)](JPA.md)
 ```md
