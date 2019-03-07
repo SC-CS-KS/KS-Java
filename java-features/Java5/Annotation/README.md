@@ -6,8 +6,7 @@
 * [注解的属性](Property.md)
 * APT
 ```md
-Annotation 不会自己生效
-	必须由开发者提供相应的代码来提取并处理 Annotation 信息
+Annotation 不会自己生效，必须由开发者提供相应的代码来提取并处理 Annotation 信息。
 处理提取和处理 Annotation 的代码统称为 APT（Annotation Processing Tool)。
 ```
 * [内置的注解](Buildin-annotation.md)
