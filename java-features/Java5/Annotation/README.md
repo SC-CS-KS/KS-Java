@@ -3,7 +3,7 @@
 ## [What Is](WhatIs.md)
 
 ## Design
-* [注解的属性](Propret.md)
+* [注解的属性](Property.md)
 * APT
 ```md
 Annotation 不会自己生效
