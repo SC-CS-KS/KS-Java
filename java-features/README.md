@@ -2,10 +2,10 @@
 
 * [Java Features Evolution](Evolution.md)
 
-* [Java DataType](Java/DataType/README.md)
+* ***[Java DataType](Java/DataType/README.md)***
 
-* [Java Exception](Java/Exception.md)
-* [Java Reflect](Java/Reflect.md)
+* ***[Java Exception](Java/Exception.md)***
+* ***[Java Reflect](Java/Reflect.md)***
 
 ## Java 5
 * ***[Generics](Java5/Generics/README.md)***
