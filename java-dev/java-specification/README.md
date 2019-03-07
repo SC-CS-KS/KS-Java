@@ -1,6 +1,8 @@
 # Java 规范
 
-* [JPA (Java Persistence API)](JPA.md)
+* []
+
+* [JSR 220 / JPA (Java Persistence API)](JPA.md)
 ```md
 Sun官方提出的Java持久化规范。
 ```
