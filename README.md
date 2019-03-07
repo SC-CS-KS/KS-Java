@@ -7,6 +7,8 @@
 * [Reactive Programming]()
 
 ## [Java 语言特性](java-features/README.md)
+* [Generics](java-features/Java5/Generics/README.md)
+* [Annotation](java-features/Java5/Annotation/README.md)
 
 ## [Java 类库](java-lib/README.md)
 * [Guava]()
