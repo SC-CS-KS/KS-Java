@@ -11,9 +11,13 @@ Java身份验证和授权服务（JAAS）发音为“Jazz”，是标准可插�
 JAAS作为Java平台标准版1.3的扩展库引入，并集成在1.4版本中
 ```
 
-## JSR Java Specification Requests (JSRs) 
-* [JSR-330 / Dependency Injection for Java](DI.md)
+* [JMX （Java Management Extensions，即Java管理扩展）](https://www.zhihu.com/question/36688387)
+```md
+是一种JAVA的正式规范，它主要目的是让程序有被管理的功能。
+应用场景：中间件软件WebLogic的管理页面就是基于JMX开发的，而JBoss则整个系统都基于JMX构架。
+```
 
+## JSR Java Specification Requests (JSRs) 
 * [JSR 220 / JPA (Java Persistence API)](JPA.md)
 ```md
 Sun官方提出的Java持久化规范。

@@ -23,6 +23,9 @@
 * common-logging
 * slf4j
 
+### HTTP
+* [http-request](https://github.com/kevinsawicki/http-request)
+
 ### Config
 * com.typesafe.config
 
@@ -30,6 +33,9 @@
 * sun.misc.Signal - 信号处理
 * [JLine - 是一个用来处理控制台输入的Java类库](https://jline.github.io/)
 * Apache.Commons.CLI - Java中命令行参数解析
+
+## 
+* [craft-atom - Java原子组件库](https://github.com/mindwind/craft-atom)
 
 ## 参考
 * [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)

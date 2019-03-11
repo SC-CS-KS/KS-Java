@@ -12,9 +12,6 @@
 
 ## [Java IO](java-IO/README.md)
 
-## [Java 类库](java-lib/README.md)
-* [Guava]()
-
 ## [Java Component](java-component/README.md)
 
 ## [Java Framework](java-framework/README.md)
@@ -36,6 +33,8 @@
 * [Java Pitfall](java-dev/java-pitfall/README.md)
 * [Java Cookbook](java-dev/java-cookbook/README.md)
 * [Java 规范](java-dev/java-specification/README.md)
+* [Java 类库](java-lib/README.md)
+> * [Guava]()
 
 ## Java 工程
 * [Maven](java-engineer/maven/README.md)
