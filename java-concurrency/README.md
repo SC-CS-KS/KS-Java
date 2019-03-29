@@ -9,10 +9,10 @@
 
 ## [线程工具](thread-tools/README.md)
 * 线程同步控制
-* 线程池 ThreadPool
+* [线程池 ThreadPool](https://github.com/SunnnyChan/sc.drill-code/blob/master/java/java-framework/pool/thread-pool/)
 * 并发容器
 
-* [锁 Lock](java-lock/README.md)
+* [锁 Lock](thread-tools/java-lock/README.md)
 
 ## [线程调优](thread-improve/README.md)
 * 性能指标
