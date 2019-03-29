@@ -18,7 +18,7 @@
 
 ## Java 源码阅读
 * [JDK](https://github.com/SunnnyChan/sc.drill-code/blob/master/java-JDK)
-> * [Java IO](https://github.com/SunnnyChan/sc.drill-code/blob/master/java-JDK/JDK/java.io/README.md)
+> * [Java IO](https://github.com/SunnnyChan/sc.drill-code/tree/master/java/java-JDK/Java-IO)
 
 * [Java Framework](https://github.com/SunnnyChan/sc.drill-code/blob/master/java-framework)
 * [Java Library](https://github.com/SunnnyChan/sc.drill-code/blob/master/java-lib/)
