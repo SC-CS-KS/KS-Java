@@ -1,8 +1,4 @@
-# Maven
-
-* [pom.xml](pom/README.md)
-
-* [plugins](plugins/README.md)
+# Build
 
 ## [Build Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 ![](pic/build-life-cycle.png)
@@ -11,10 +7,7 @@
 ```md
 验证项目是否正确，并提供所有必要信息。
 ```
-
 * compile 编译项目的源代码
-
-> * maven-compiler-plugin
 
 * test
 ```md
@@ -23,9 +16,9 @@
 > * maven-surefire-plugin
 ```md
 是maven里执行测试用例的插件，不显示配置就会用默认配置。
-插件的surefire:test命令会默认绑定maven执行的test阶段。
+插件的 surefire:test 命令会默认绑定 maven 执行的 test 阶段。
 ```
-* [package](package.md)
+* package
 ```md
 获取已编译的代码并将其打包为可分发的格式，例如JAR。
 ```
@@ -41,12 +34,3 @@
 ```md
 将最终包复制到远程存储库以与其他开发人员和项目共享。
 ```
-## Maven CMD
-```shell
-$ mvn -Dmaven.test.skip=true package
-
-```
-
-## Reference
-
-* [Maven Tutorial](https://howtodoinjava.com/maven/)
