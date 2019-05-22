@@ -1,14 +1,25 @@
 # Java Array
-```md
-是Object的直接子类。
 
-但是它又与普通的Java对象存在很大的不同，从它的类名就可以看出：[I。
-可以简单的说数组的类名由若干个’[‘和数组元素类型的内部名称组成。
+## [WhatIs](WhatIs.md)
 
-数组是对象
-	数组对象并不是从某个类实例化来的，而是由JVM直接创建的。
-	父类就是Object，所以可以调用Object中的所有方法。
+## Design
+* 数组声明
+```java
+String[] aArray = new String[5];
+String[] bArray = {"a","b","c", "d", "e"};
+String[] cArray = new String[]{"a","b","c","d","e"};
 ```
+* 数组长度
+```md
+在数组编译之后生成的字节码中，没有length这个成员变量。
+获取数组长度是由一条特定的指令 Array Length 实现。
+对于 HotSpot VM，在数组对象的对象头里有一个 _length 字段，记录数组长度。 
+Array Length 字节码的实现只要去读那个 _length 字段即可。
+```
+* [数组方法](array_methods.md)
+* [数组 Cookbook](array_cookbook.md)
+
+## 
 * [数组的协变](array_Covariance.md)
 * 数组不支持泛型
 
