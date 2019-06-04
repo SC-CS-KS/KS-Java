@@ -1,6 +1,5 @@
 # jps
 
-
 *  jps -lvm
 ```md
 40122 sun.tools.jps.Jps -lvm -Denv.class.path=.:/usr/local/jdk1.8.0_65/lib -Dapplication.home=/usr/local/jdk1.8.0_65 -Xms8m

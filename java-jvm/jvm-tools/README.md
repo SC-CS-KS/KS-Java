@@ -1,4 +1,5 @@
 # JVM Tools
 
-* [jps](jvm-tools/jps.md)
-* [jstat - JVM Statistics Monitoring Tool](jvm/jstat.md)
+* [jps](jps.md)
+* [jstat - JVM Statistics Monitoring Tool](jstat.md)
+* [jmap](jmap.md)

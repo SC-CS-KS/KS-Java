@@ -1,5 +1,13 @@
 # [jstat - JVM Statistics Monitoring Tool](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html)
-
+```md
+jstat [-options] pid interval
+```
+```md
+class 查看类加载信息。
+compile 编译统计信息。
+gc 垃圾回收信息。
+gcXXX 各区域 GC 的详细信息，如 -gcold
+```
 * GC 统计
 ```shell
 $ jstat -gc 734 1000
