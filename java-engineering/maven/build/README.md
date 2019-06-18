@@ -1,7 +1,7 @@
 # Build
 
 ## [Build Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
-![](pic/build-life-cycle.png)
+![](../_pic/build-life-cycle.png)
 
 * validate
 ```md

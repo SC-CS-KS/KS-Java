@@ -7,17 +7,19 @@
 一致的构建模型
 插件机制
 ```
+## Design
+* [mvn CMD](design/mvn.md)
+* [pom.xml](design/pom/README.md)
+* [plugins](design/plugins/README.md)
 
-* [mvn CMD](mvn.md)
-* [pom.xml](pom/README.md)
-* [plugins](plugins/README.md)
-
-* [Dependency Management](dependency/README.md)
-* [Build](build/README.md)
+## Features
+* [项目管理](project/README.md)
+* [依赖管理 Dependency Management](dependency/README.md)
+* [构建管理 Build](build/README.md)
 
 ## [Nexus](https://blog.sonatype.com/)
 ```md
-Nexus 是Maven仓库管理器，如果你使用Maven，你可以从Maven中央仓库 下载所需要的构件（artifact），
+Nexus 是 Maven仓库管理器，如果你使用Maven，你可以从Maven中央仓库 下载所需要的构件（artifact），
 但这通常不是一个好的做法，你应该在本地架设一个Maven仓库服务器，
 在代理远程仓库的同时维护本地仓库，以节省带宽和时间，Nexus就可以满足这样的需要。
 此外，他还提供了强大的仓库管理功能，构件搜索功能，它基于REST，
