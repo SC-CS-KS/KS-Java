@@ -14,9 +14,8 @@ $ mvn archetype:generate -DgroupId=com.sunny -DartifactId=demo -DarchetypeArtifa
 ```
 * 4. 创建模块
 ```sh
-$mvn archetype:generate -DgroupId=com.sunny -DartifactId=demo-nio -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+$ mvn archetype:generate -DgroupId=com.sunny -DartifactId=demo-nio -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
-
 
 ## Reference
 * [使用Maven构建多模块项目](https://www.cnblogs.com/xdp-gacl/p/4242221.html)
