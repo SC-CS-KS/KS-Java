@@ -23,7 +23,7 @@
 
 ## Java 应用
 ### [Java 网络编程](java-network/README.md)
-### [Java Web](https://github.com/SunnnyChan/knowledge-Sys-of-web/tree/master/java-web)
+### [Java Web](https://github.com/SunnnyChan/KS-Web/tree/master/java-web)
 
 ## Java 工程
 ### [Java Debug](java-engineering/java-debug/README.md)
