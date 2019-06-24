@@ -2,12 +2,10 @@
 
 ## JVM 锁机制
 
-* [对象锁](Object-Lock.md)
-
-* 自旋锁(Spin Lock)
+## [对象锁](Object-Lock.md)
+## 自旋锁(Spin Lock)
 
 ## 公平锁 和 非公平锁
-
 ```md
 线程获取锁是否公平，是指线程是否能够按照申请加锁的顺序来获得锁。
 
@@ -16,8 +14,8 @@
 
 如果一个线程申请锁时，有可能先于AQS队列中的等待线程先获得锁，
 则此时实现的是 非公平锁 策略。
-
-* 实现
+```
+```java
 ReentrantLock lock = new ReentrantLock() // 非公平锁
 ReentrantLock lock = new ReentrantLock(true) // 公平锁
 
