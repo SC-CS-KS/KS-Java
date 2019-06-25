@@ -1,6 +1,6 @@
 # Spring Webflux
 ```md
-Spring Webflux包含了对反应式 HTTP、服务器推送事件和 WebSocket 的客户端和服务器端的支持。
+Spring Webflux 包含了对反应式 HTTP、服务器推送事件和 WebSocket 的客户端和服务器端的支持。
 ```
 ```md
 Spring 5 中最重要改动是把反应式编程的思想应用到了框架的各个方面，Spring 5 的反应式编程以 Reactor 库为基础。

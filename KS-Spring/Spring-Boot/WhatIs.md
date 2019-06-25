@@ -1,14 +1,11 @@
 # Spring Boot
 ```md
-Spring 和 SpringMVC 的问题在于需要配置大量的参数。Spring Boot 通过一个自动配置和启动的项来目解决这个问题。
-Spring Boot使编码、配置、部署、监控变简单。
-```
-```md
-简化了基于Spring的应用开发，通过少量的代码就能创建一个独立的、产品级别的Spring应用，
-它可以让你尽可能快的运行起Spring程序。
+Spring Boot 是和Spring框架紧密结合用于提升Spring开发者体验的工具。
+同时它集成了大量常用的第三方库配置(例如Jackson, JDBC, Mongo, Redis, Mail等等)，
+Spring Boot应用中这些第三方库几乎可以零配置的开箱即用(out-of-the-box)。
 
-Spring Boot就是一个内嵌Web服务器（tomcat/jetty）的可执行程序的框架，
-你开发的web应用不需要作为war包部署到web服务器中，而是作为一个可执行程序，启动时把Web服务器配置好，加载起来。
+Spring Boot 简化了基于Spring的应用开发，通过少量的代码就能创建一个独立的、产品级别的Spring应用，
+它可以让你尽可能快的运行起Spring程序。
 
 Spring Boot其实不是什么新的框架，它默认配置了很多框架的使用方式。
 ```

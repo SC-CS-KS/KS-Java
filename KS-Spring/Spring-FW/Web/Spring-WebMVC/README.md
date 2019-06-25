@@ -1,4 +1,4 @@
-# Spring MVC
+# Spring WebMVC
 ```md
 提供了一种分离式的方法来开发 Web 应用。
 是以请求为驱动，围绕 Servlet 设计，将请求发给控制器，然后通过模型对象，分派器来展示请求结果视图。
@@ -20,6 +20,7 @@
 
 ## 
 * [Controller](Controller.md)
+
 ## 组件
 * [前端控制器 DispatcherServlet](component/DispatcherServlet.md)
 * 处理器映射器 HandlerMapping

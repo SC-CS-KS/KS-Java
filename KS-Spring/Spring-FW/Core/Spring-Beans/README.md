@@ -1,5 +1,33 @@
 # Spring-Beans - org.springframework.beans
 
+## 创建 Beans
+* 使用Spring XML方式配置
+* 使用@Component, @Service, @Controller, @Repository 注解
+* 使用@Bean注解,这种方式用在Spring Boot 应用中
+```java
+@Configuration
+public class UserConfiguration{
+  @Bean
+  @ConditionalOnBean(Location.class)
+  public User user(){
+    return new User();
+  }
+}
+```
+```md
+这里创建的Bean名称默认为方法的名称user。也可以@Bean("xxxx")定义。
+```
+```md
+@Configuration 标识这是一个Spring Boot 配置类，其将会扫描该类中是否存在@Bean 注解的方法
+@ConditionalOnBean 用于判断存在某个Bean时才会创建User Bean
+```
+* 使用注解@Import,也会创建对象并注入容器中
+* 使用ImportSelector 或者 ImportBeanDefinitionRegistrar接口，配合@Import实现
+* 手动注入Bean容器
+```md
+有些场景下需要代码动态注入，以上方式都不适用。这时就需要创建 对象手动注入。
+```
+## Design
 ```md
 Spring 使用工厂模式来管理程序中使用的对象（Bean），Bean 工厂最上层的接口为 BeanFactory，
 简单来看，工厂就是根据需要返回相应的 Bean 实例。
