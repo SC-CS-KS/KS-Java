@@ -28,6 +28,16 @@ Hystrix 使用 RxJava 简洁的 window API 来构建 metric 应该算是一种�
 如果想在后端使用响应式编程的话，不妨看看 vertx, 
 它基本用自己的响应式打通了后端的各个环节, 它规划的技术栈还是很全面,基本上覆盖到后端开发的功能.
 ```
+## Evolution
+* 第0代 就是java包Observable 接口，也就是观察者模式。
+* 第1代 rx.NET，Reactive4 Java，早期的 RxJava
+* 第2代 RxJava
+* 第3代 RxJava2，Project Reactor，Akka-Streams
+* 第4代 RxJava2，Project Reactor 2.5+
+```md
+第四代虽然仍然是RxJava2，但是相比第三代的RxJava2，其中的小版本有了不一样的改进，出现了新特性。
+```
+
 ## Compare With
 * vs. Java 9 Flow API
 ```md
