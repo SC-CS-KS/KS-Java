@@ -46,3 +46,6 @@ Test模块支持使用JUnit和TestNG对Spring组件进行测试。
 ### Support
 * Spring-Context-Support - 额外服务支持包，比如邮件服务、视图解析等
 
+## Design
+## 事件机制
+* [Spring ApplicationContext事件机制](https://www.jianshu.com/p/bc1055b065ce)
