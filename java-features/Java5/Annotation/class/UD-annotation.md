@@ -1,4 +1,4 @@
-## 自定义注解
+## 自定义注解  （java.lang.annotation.Annotation）
 ```java
 定义一个注解
 public @interface CustomAnnotationClass

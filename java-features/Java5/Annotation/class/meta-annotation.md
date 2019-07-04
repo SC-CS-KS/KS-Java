@@ -1,6 +1,6 @@
 #  meta-annotation
 ```md
-专门注解其他的注解（注解的注解）
+J2SE5.0版本在 java.lang.annotation提供了四种元注解，专门注解其他的注解（注解的注解）
 ```
 ## @Documented
 ```md
@@ -32,22 +32,14 @@
 ```
 ```md
 可用的参数
-	ElementType.TYPE
-		可以给一个类型进行注解，比如类、接口、枚举
-	ElementType.FIELD
-		可以给属性进行注解
-	ElementType.METHOD
-		可以给方法进行注解
-	ElementType.PARAMETER
-		可以给一个方法内的参数进行注解
-	ElementType.CONSTRUCTOR
-		可以给构造方法进行注解
-	ElementType.LOCAL_VARIABLE
-		可以给局部变量进行注解
-	ElementType.ANNOTATION_TYPE
-		可以给一个注解进行注解
-	ElementType.PACKAGE
-		可以给一个包进行注解
+ElementType.TYPE 可以给一个类型进行注解，比如类、接口、枚举
+ElementType.FIELD 可以给属性进行注解
+ElementType.METHOD 可以给方法进行注解
+ElementType.PARAMETER 可以给一个方法内的参数进行注解
+ElementType.CONSTRUCTOR 可以给构造方法进行注解
+ElementType.LOCAL_VARIABLE 可以给局部变量进行注解
+ElementType.ANNOTATION_TYPE 可以给一个注解进行注解
+ElementType.PACKAGE 可以给一个包进行注解
 ```
 ## @Inherited
 ```md

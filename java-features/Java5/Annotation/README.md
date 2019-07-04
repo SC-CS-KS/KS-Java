@@ -2,13 +2,30 @@
 
 ## [What Is](WhatIs.md)
 
+## [规范](Std.md)
+
 ## Design
 
+* [注解的属性](Property.md)
+
+* APT
+```md
+Annotation 不会自己生效，必须由开发者提供相应的代码来提取并处理 Annotation 信息。
+处理提取和处理 Annotation 的代码统称为 APT（Annotation Processing Tool)。
+```
+### 创建
+```java
+@interface
+public @interface TestAnnotation {
+}
+```
+
+### 实现
 ```md
 Java 使用了动态代理对我们定义的注解接口生成了一个代理类。
 反射比较慢，所以注解使用时也需要谨慎计较时间成本。
 ```
-* 提取
+### 提取
 ```md
 首先可以通过 Class 对象的 isAnnotationPresent() 方法判断它是否应用了某个注解。
 然后通过 getAnnotation() 方法来获取 Annotation 对象或者是 getAnnotations() 方法。
@@ -29,19 +46,24 @@ public class Test {
 }
 ```
 
-* [注解的属性](Property.md)
-
-* APT
+## 分类
+* 标识注解
 ```md
-Annotation 不会自己生效，必须由开发者提供相应的代码来提取并处理 Annotation 信息。
-处理提取和处理 Annotation 的代码统称为 APT（Annotation Processing Tool)。
+注解类可以没有成员，没有成员的注解称为标识注解
 ```
+### 按照运行机制分为 
+* 源码注解 注解只在源码中存在，编译成.class文件就不存在了 
+* 编译时注解 注解在源码和.class文件中都存在（如：JDK内置系统注解） 
+* 运行时注解 在运行阶段还起作用，甚至会影响运行逻辑的注解（如：Spring中@Autowried） 
+
+### 按照来源分为 
 * [内置注解](Buildin-annotation.md)
-
 * [元注解 meta-annotation](meta-annotation.md)
-
-## Develop
 * [自定义注解](UD-annotation.md)
+* 第三方注解
+
+## Dev
+
 
 ## Utility
 ### 场景
