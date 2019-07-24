@@ -1,5 +1,8 @@
 # Spring Boot
 
+## Doc
+* [Spring Boot Reference Guide](_doc/Spring-Boot-RG/README.md)
+
 ## [WhatIs](WhatIs.md)
 
 ## Design
@@ -25,8 +28,10 @@
 * [分布式文件系统](https://gitee.com/52itstyle/spring-boot-fastdfs)
 * [讯飞语音 - 讯飞语音JavaWeb语音合成解决方案](https://gitee.com/52itstyle/xufei_msc)
 
+
+
 ## Resources
-* [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/)
+
 * [Spring Boot Examples](https://github.com/ityouknow/spring-boot-examples)
 
 * [SpringBoot + MyBatis + MySQL 读写分离实战](https://www.toutiao.com/i6696980676417159687/)
