@@ -16,3 +16,12 @@ public class WireThirdLibClass {
     }
 }
 ```
+
+* @Bean(initMethod = "init", destroyMethod = "destroy")
+```md
+对象创建完成，赋值完成，调用initMethod指定方法初始化
+单实例：容器关闭时调用 destroyMethod 指定方法销毁对象
+```
+```md
+多实例：容器不会销毁，只能手动调用销毁方法
+```

@@ -1,4 +1,9 @@
 # @EnableAutoConfiguration
+```md
+是Spring-Boot实现自动化配置的核心注解，通过这个注解把spring应用所需的bean注入容器中。
+源码通过@Import注入了一个ImportSelector的实现类
+AutoConfigurationImportSelector，这个ImportSelector最终实现根据我们的配置，动态加载所需的bean
+```
 ```java
 /**
  * Enable auto-configuration of the Spring Application Context, attempting to guess and

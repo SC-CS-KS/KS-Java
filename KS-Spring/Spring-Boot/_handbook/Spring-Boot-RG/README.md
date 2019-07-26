@@ -1,4 +1,5 @@
 # [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+* [中文](https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/)
 
 ## II. Getting Started
 

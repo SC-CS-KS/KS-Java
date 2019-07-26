@@ -7,15 +7,17 @@
 一致的构建模型
 插件机制
 ```
+
 ## Design
-* [mvn CMD](design/mvn.md)
-* [pom.xml](design/pom/README.md)
-* [plugins](design/plugins/README.md)
+* [mvn CMD](design/Cli/README.md)
+* [pom.xml](design/Pom/README.md)
+* [plugins](design/Plugins/README.md)
+* [repository](design/Repository/README.md)
 
 ## Features
-* [项目管理](project/README.md)
-* [依赖管理 Dependency Management](dependency/README.md)
-* [构建管理 Build](build/README.md)
+* [项目管理](F_Project/README.md)
+* [依赖管理 Dependency Management](F_Dependency/README.md)
+* [构建管理 Build](F_Build/README.md)
 
 ## [Nexus](https://blog.sonatype.com/)
 ```md

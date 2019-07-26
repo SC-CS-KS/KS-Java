@@ -1,6 +1,17 @@
-# application.properties
+# [application.properties](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
+```md
+在使用Spring Boot的过程中，除了可以在pom.xml中配置一些内容外，
+一些项目相关的配置也可以在application.properties中通过配置来完成。
+```
 ```md
 src/main/java/resources/application.properties
+```
+## 一般属性使用
+```md
+可以配置程序的端口，名字等，这类一般属性配置后是直接可以被Spring Boot识别使用的
+spring.application.name=compute-service
+server.port=80
+server.tomcat.uri-encoding=GBK
 ```
 ## 自定义属性
 ```md
@@ -24,6 +35,7 @@ public class UserController {
         return name+","+title;
     }
 }
+
 ```
 * 绑定一个对象的bean
 ```java
@@ -132,15 +144,17 @@ SpringBoot提倡零配置，即无xml配置，但是在实际项目中，可能�
 ## 多环境配置
 ```md
 当应用程序需要部署到不同运行环境时，一些配置细节通常会有所不同，
-最简单的比如日志，生产日志会将日志级别设置为WARN或更高级别，并将日志写入日志文件，而开发的时候需要日志级别为DEBUG，日志输出到控制台即可。
+最简单的比如日志，生产日志会将日志级别设置为WARN或更高级别，
+并将日志写入日志文件，而开发的时候需要日志级别为DEBUG，日志输出到控制台即可。
 ```
 ```md
-如果按照以前的做法，就是每次发布的时候替换掉配置文件，这样太麻烦了，Spring Boot的Profile就给我们提供了解决方案，命令带上参数就搞定。
+如果按照以前的做法，就是每次发布的时候替换掉配置文件，这样太麻烦了，
+Spring Boot的Profile就给我们提供了解决方案，命令带上参数就搞定。
 ```
 * 命令带参数的方式
 ```md
-在Spring Boot中多环境配置文件名需要满足application-{profile}.properties的格式，其中{profile}对应你的环境标识，比如：
-
+在Spring Boot中多环境配置文件名需要满足application-{profile}.properties的格式，
+其中{profile}对应你的环境标识，比如：
 application-dev.properties：开发环境
 application-prod.properties：生产环境
 ```
@@ -152,7 +166,8 @@ application-prod.properties：生产环境
 java -jar xxx.jar --spring.profiles.active=dev
 ```
 ```md
-我给不同的环境添加不同的数据库连接spring.data.mongodb.uri，然后根据指定不同的spring.profiles.active来切换使用。
+我给不同的环境添加不同的数据库连接spring.data.mongodb.uri，
+然后根据指定不同的spring.profiles.active来切换使用。
 ```
 ```md
 多环境配置的坑 

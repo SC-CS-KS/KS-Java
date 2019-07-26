@@ -1,7 +1,8 @@
 # @ConfigurationProperties
 ```md
 当我们先获取application.xml中几个值的时候用@Value比较方便，
-但是如果一些配置频繁使用，或者有关联关系，把他们放在一块更好的时候，可以用@ConfigurationProperties注解，直接将配置项映射为对象
+但是如果一些配置频繁使用，或者有关联关系，把他们放在一块更好的时候，
+可以用@ConfigurationProperties注解，直接将配置项映射为对象
 ```
 ```md
 假如配置文件如下所示

@@ -11,6 +11,7 @@
 * SpringFactoriesLoader
 * 事件监听机制
 * 启动引导
+* [Spring Boot Starter](design/Starter/README.md)
 
 ## 集成
 * [springboot-integration-examples](https://github.com/Snailclimb/springboot-integration-examples)

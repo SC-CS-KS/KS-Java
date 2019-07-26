@@ -1,5 +1,18 @@
 # @SpringBootApplication
- 
+```md
+@SpringBootApplication注解等价于以默认属性使用
+@Configuration@EnableAutoConfiguration和@ComponentScan
+```
+```md
+使用@SpringBootApplication注解，就说明你使用了@ComponentScan的默认配置，
+这就建议你把使用@SpringBootApplication注解的类放置在root package(官方表述)下，
+其他类都置在root package的子包里面，这样bean就不会被漏扫描
+```
+```md
+Spring-Boot 是通过注解@EnableAutoConfiguration的方式，去查找，过滤，加载所需的configuration
+@ComponentScan扫描我们自定义的bean
+@SpringBootConfiguration使得被 @SpringBootApplication注解的类声明为注解类
+```
 ```java
 /**
  * Indicates a {@link Configuration configuration} class that declares one or more
