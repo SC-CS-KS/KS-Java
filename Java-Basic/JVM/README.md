@@ -1,6 +1,6 @@
 # Java JVM
 
-* [Classs Load](class-load.md)
+* [Class Load](class-load.md)
 
 
 
