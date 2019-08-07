@@ -35,7 +35,7 @@ Apache Commons FileUpload组件提供了一种简单而灵活的方法，可以�
 
 ## Misc
 * [craft-atom - Java原子组件库](https://github.com/mindwind/craft-atom)
-* [hutool - Java工具包](https://gitee.com/loolly/hutool)
+* [hutool - Java工具包](https://github.com/looly/hutool)
 
 ## Reference
 * [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)

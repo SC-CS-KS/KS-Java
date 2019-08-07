@@ -3,6 +3,6 @@
 
 
 ## [Tools](tools.md)
+* [Arthas - 是 Alibaba开源的 Java诊断工具](Arthas.md)
 
 ## Resources
-* [Arthas - 是 Alibaba开源的 Java诊断工具](https://github.com/alibaba/arthas)
