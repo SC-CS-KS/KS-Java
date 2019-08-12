@@ -26,10 +26,12 @@ serialVersionUID适用于java序列化机制。
 ```md
 当实现java.io.Serializable 接口中没有显示的定义serialVersionUID变量的时候，
 JAVA序列化机制会根据Class自动生成一个serialVersionUID作序列化版本比较用，
-这种情况下，如果Class文件(类名，方法明等)没有发生变化(增加空格，换行，增加注释等等)，就算再编译多次，serialVersionUID也不会变化的。
+这种情况下，如果Class文件(类名，方法等)没有发生变化(增加空格，换行，增加注释等等)，就算再编译多次，serialVersionUID也不会变化的。
 ```
 ```md
-如果我们不希望通过编译来强制划分软件版本，即实现序列化接口的实体能够兼容先前版本，就需要显示的定义一个serialVersionUID，类型为long的变量。
+如果我们不希望通过编译来强制划分软件版本，即实现序列化接口的实体能够兼容先前版本，
+就需要显示的定义一个serialVersionUID，类型为long的变量。
+
 不修改这个变量值的序列化实体，都可以相互进行序列化和反序列化。
 ```
 * [IntelliJ IDEA 中自动生成 serialVersionUID 的方法](https://blog.csdn.net/qq_35246620/article/details/77686098)
