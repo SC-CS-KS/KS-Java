@@ -28,3 +28,4 @@ Gradle守护进程是一个后台进程，可以完成运行构建的繁重工�
 
 ## Resources
 * [Gradle vs Maven Comparison](https://gradle.org/maven-vs-gradle/)
+* [Gradle User Guide 中文版](https://dongchuan.gitbooks.io/gradle-user-guide-/)
