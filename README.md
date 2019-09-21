@@ -38,6 +38,7 @@ Table of Contents
       * [<a href="Java-Engineering/T_Gradle/README.md">Gradle</a>](#gradle)
       * [<a href="Java-Engineering/Java-Debug/README.md">Java Debug</a>](#java-debug)
       * [<a href="Java-Engineering/Java-Performance/README.md">Java Performance</a>](#java-performance)
+         * [<a href="https://github.com/SunnnyChan/SunnnyChan.github.io/tree/master/post/readme/reading/language/java/java-performance-the-definitive-guide">《Java Performance : The Definitive Guide》 (《Java性能权威指南》)</a>](#java-performance--the-definitive-guide-java性能权威指南)
    * [Java 应用](#java-应用)
       * [<a href="Java-Network/README.md">Java 网络编程</a>](#java-网络编程)
       * [<a href="https://github.com/SunnnyChan/KS-Web/tree/master/Java-web">Java Web</a>](#java-web)

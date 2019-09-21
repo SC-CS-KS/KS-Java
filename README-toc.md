@@ -44,6 +44,7 @@
 
 ## [Java Debug](Java-Engineering/Java-Debug/README.md)
 ## [Java Performance](Java-Engineering/Java-Performance/README.md)
+### [《Java Performance : The Definitive Guide》 (《Java性能权威指南》)](https://github.com/SunnnyChan/SunnnyChan.github.io/tree/master/post/readme/reading/language/java/java-performance-the-definitive-guide)
 
 # Java 应用
 ## [Java 网络编程](Java-Network/README.md)

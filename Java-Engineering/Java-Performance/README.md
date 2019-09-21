@@ -12,8 +12,7 @@
 * [jvm-mon - when you just want to SSH into a server and see what's going on](https://github.com/ajermakovics/jvm-mon)
 
 ## 参考
-### Book ReadingNotes
-* [Java Preformance : The Definitive Guide](https://github.com/SunnnyChan/SunnnyChan.github.io/tree/master/post/readme/reading/language/java/java-performance-the-definitive-guide)
+* [Java Performance : The Definitive Guide](https://github.com/SunnnyChan/SunnnyChan.github.io/tree/master/post/readme/reading/language/java/java-performance-the-definitive-guide)
 
-## To Read
+## Resource
 * [Java Performance Tuning Guide](http://java-performance.info/)
