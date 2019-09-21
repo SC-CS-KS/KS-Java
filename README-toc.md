@@ -1,12 +1,11 @@
-# Java Knowledge System
 
-## Java 基础
-### [JDK](Java-Basic/JDK/README.md)
-### [Java JVM](Java-Basic/JVM/README.md)
-##### [Java GC](Java-Basic/JVM/GC/README.md)
-### [Java 语言特性](Java-Basic/Features/README.md)
-#### [Generics 泛型](Java-Basic/Features/Java5/Generics/README.md)
-#### [Annotation 注解](Java-Basic/Features/Java5/Annotation/README.md)
+# Java 基础
+## [JDK](Java-Basic/JDK/README.md)
+## [Java JVM](Java-Basic/JVM/README.md)
+#### [Java GC](Java-Basic/JVM/GC/README.md)
+## [Java 语言特性](Java-Basic/Features/README.md)
+### [Generics 泛型](Java-Basic/Features/Java5/Generics/README.md)
+### [Annotation 注解](Java-Basic/Features/Java5/Annotation/README.md)
 
 ## Java 编程范式
 ### [Java OOP](java-paradigm/java-OOP/README.md)
