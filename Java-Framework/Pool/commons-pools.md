@@ -3,7 +3,7 @@
 Commons Pool组件提供了一整套用于实现对象池化的框架，以及若干种各具特色的对象池实现。
 2.0 版本包含可靠的实例跟踪和池监控。
 
-commos-pool在很多场景中用来实现"连接池"/"任务worker池"等。
+commos-pool 在很多场景中用来实现"连接池"/"任务worker池"等。
 dbcp数据库连接池，也是基于commons-pool实现。
 ```
 ## Dependency

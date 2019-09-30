@@ -15,8 +15,5 @@
 * Spring Session
 * Spring Web Services
 
-## Design
-* [注解](annotations/README.md)
-
 ## Resources
 * [Spring Tutorial](https://howtodoinjava.com/spring-boot-tutorials/)
