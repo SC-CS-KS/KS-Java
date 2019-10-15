@@ -19,11 +19,13 @@ Gradle守护进程是一个后台进程，可以完成运行构建的繁重工�
 启用Gradle守护程序是一种非常便宜的减少构建时间的方法。
 ```
 
-## Design
 * gradlew 
 
 
-##
+## IDEA
+[Mac、IDEA 配置 Gradle](https://www.cnblogs.com/756623607-zhang/p/9187274.html)
+
+## 
 * [Creating Multi-project Builds](https://guides.gradle.org/creating-multi-project-builds/)
 
 ## Resources
