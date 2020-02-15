@@ -1,6 +1,6 @@
 # Java IO
 
-![](pic/IO-Mode.jpg)
+![](_pic/IO-Mode.jpg)
 
 * BIO (Blocking I/O)
 ```md

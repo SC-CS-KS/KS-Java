@@ -1,5 +1,10 @@
 # Java Data Type
 
+## 基础类型
+
+## 包装类
+
+### java.lang.Void
 
 ## 类型转换 （Type Cast）
 ***Covariance vs. Contravariance （协变 vs. 逆变）***
