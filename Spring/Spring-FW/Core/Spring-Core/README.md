@@ -1,4 +1,0 @@
-# Spring-Core
-
-* DI
-* IoC
