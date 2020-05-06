@@ -11,6 +11,7 @@ JPA 是在充分吸收了现有 Hibernate，TopLink，JDO 等 ORM 框架的基�
 
 ## [JPA API](https://docs.oracle.com/javaee/5/tutorial/doc/bnbpz.html)
 
-## Implement
+## Implement  
+
 * Spring Data JPA
 * Hibernate
