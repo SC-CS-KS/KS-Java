@@ -27,11 +27,11 @@ public @interface CustomAnnotationClass
  	public String date();
 }
 ```
-```md
+
 以上仅定义了默认值为“danibuiza”的 author 属性和没有默认值的date属性。
 应强调所有的方法声明都不能有参数和throw子句。
 这个返回值的类型被限制为之前提过的字符串，类，枚举，注解和存储这些类型的数组。
-```
+
 ```java
 使用刚创建的自定义注解
 @CustomAnnotationClass( date = "2014-05-05" )
@@ -40,7 +40,7 @@ public class AnnotatedClass
 ...
 }
 ```
-```md
+```java
 在另一种类似的用法中我们可以创建一种注解方法的注解，使用Target METHOD
 @Retention( RetentionPolicy.RUNTIME )
 @Target( ElementType.METHOD )
@@ -65,7 +65,6 @@ public String annotatedMethodFromAFriend()
  return "nothing niente";
 }
 ```
-```md
-有很多其它属性可以用在自定义注解上，
-但是目标 （Target）和 保留策略（Retention Policy）是最重要的两个。
-```
+
+有很多其它属性可以用在自定义注解上，  
+但是目标 （Target）和 保留策略（Retention Policy）是最重要的两个。  
