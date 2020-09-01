@@ -1,21 +1,23 @@
 # [jstat - JVM Statistics Monitoring Tool](https://docs.oracle.com/javase/7/docs/technotes/tools/share/jstat.html)
-```md
+
+```bash
 jstat [-options] pid interval
 ```
-```md
+```
 class 查看类加载信息。
 compile 编译统计信息。
 gc 垃圾回收信息。
 gcXXX 各区域 GC 的详细信息，如 -gcold
-```
+```  
+
 * GC 统计
-```shell
+```bash
 $ jstat -gc 734 1000
  S0C    S1C    S0U    S1U      EC       EU        OC         OU       MC     MU    CCSC   CCSU   YGC     YGCT    FGC    FGCT     GCT
 34816.0 5632.0  0.0   5542.3 2251264.0 2085840.5 2829312.0   50835.4   59328.0 57872.7 5888.0 5523.1   1580   93.237   9      3.658   96.895
 34816.0 5632.0  0.0   5542.3 2251264.0 2101587.6 2829312.0   50835.4   59328.0 57872.7 5888.0 5523.1   1580   93.237   9      3.658   96.895
 ```
-```md
+```
 S0C：第一个幸存区的大小
 S1C：第二个幸存区的大小
 S0U：第一个幸存区的使用大小
@@ -36,7 +38,7 @@ GCT：垃圾回收消耗总时间
 ```
 
 * GC 总体统计
-```shell
+```bash
 $ jstat -gcutil 734 1000
   S0     S1     E      O      M     CCS    YGC     YGCT    FGC    FGCT     GCT
  91.70   0.00   5.46   1.80  97.55  93.80   1581   93.248     9    3.658   96.906
@@ -44,13 +46,13 @@ $ jstat -gcutil 734 1000
 ```
 
 * Heap 统计
-```shell
+```bash
 $ jstat -gccapacity 734 1000
  NGCMN    NGCMX     NGC     S0C   S1C       EC      OGCMN      OGCMX       OGC         OC       MCMN     MCMX      MC     CCSMN    CCSMX     CCSC    YGC    FGC
 1397760.0 2446336.0 2375680.0 3072.0 32768.0 2201088.0  2796544.0  4893696.0  2829312.0  2829312.0      0.0 1103872.0  59328.0      0.0 1048576.0   5888.0   1581     9
 1397760.0 2446336.0 2375680.0 3072.0 32768.0 2201088.0  2796544.0  4893696.0  2829312.0  2829312.0      0.0 1103872.0  59328.0      0.0 1048576.0   5888.0   1581     9
 ```
-```m
+```
 NGCMN：新生代最小容量
 NGCMX：新生代最大容量
 NGC：当前新生代容量
@@ -63,20 +65,20 @@ MCMX：最大元数据容量
 ```
 
 * 新生代 GC 统计
-```shell
+```bash
 $ jstat -gcnew 734 1000
  S0C    S1C    S0U    S1U   TT MTT  DSS      EC       EU     YGC     YGCT
 31232.0 2560.0    0.0 2198.1 15  15 31232.0 2152448.0 350025.9   1582   93.256
 31232.0 2560.0    0.0 2198.1 15  15 31232.0 2152448.0 350025.9   1582   93.256
 ```
-```md
+```
 TT:对象在新生代存活的次数
 MTT:对象在新生代存活的最大次数
 DSS:期望的幸存区大小
 ```
 
 * 新生代 内存 统计
-```shell
+```bash
 $ jstat -gcnewcapacity 734 1000
   NGCMN      NGCMX       NGC      S0CMX     S0C     S1CMX     S1C       ECMX        EC      YGC   FGC
  1397760.0  2446336.0  2373120.0 815104.0  31232.0 815104.0   2560.0  2445312.0  2152448.0  1582     9
@@ -84,15 +86,15 @@ $ jstat -gcnewcapacity 734 1000
 ```
 
 * 老年代 GC 统计
-```shell
+```bash
 $ jstat -gcold 734 1000
 ```
 * 老年代 内存 统计
-```shell
+```bash
 $ jstat -gcoldcapacity 734 1000
 ```
 * 元数据空间 统计
-```shell
+```bash
 $ jstat -gcmetacapacity 734 1000
 ```
 
