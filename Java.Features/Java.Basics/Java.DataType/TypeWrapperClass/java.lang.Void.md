@@ -28,9 +28,8 @@ class Void {
 }
 ```
 
-```text
 Void类是一个不可实例化的占位符类，如果方法返回值是Void类型，那么该方法只能返回null类型。
-```
+
 
 ## 场景
 
@@ -46,10 +45,9 @@ Future<Void> f = pool.submit(new Callable() {
         
 });
 ```
-```text
+
 比如使用 Callable接口，该接口必须返回一个值，但实际执行后没有需要返回的数据。 
 这时可以使用Void类型作为返回类型。
-```
 
 ### 反射
 
@@ -65,9 +63,9 @@ public class Test {
     }
 }
 ```
-```text
+
 通过反射获取所有返回值为void的方法。
-```
+
 
 ***在泛型出现之前，Void一般用于反射之中。***
 
