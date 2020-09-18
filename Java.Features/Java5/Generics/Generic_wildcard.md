@@ -1,5 +1,7 @@
 # 泛型通配符
+
 ## 背景
+
 ```java
 List<Sub> lsub = new ArrayList<>();
 List<Base> lbase = lsub;
@@ -15,14 +17,14 @@ Sub 是 Base 的子类，不代表 List<Sub> 和 List<Base> 有继承关系。
 ```md
 所以，所谓泛型通配，是指在声明泛型类型变量时，可以不必直接指定具体的泛型，而可以使用通配符来表示一系列类型。
 ```
-```md
-Java 泛型通配符的出现是为了使 Java 泛型也支持向上转型，从而保持 Java 语言向上转型概念的统一。
-但与此同时，也导致 Java 通配符出现了一些缺陷，使得其有特定的使用场景。
-```
+
+Java 泛型通配符的出现是为了使 Java 泛型也支持向上转型，从而保持 Java 语言向上转型概念的统一。  
+但与此同时，也导致 Java 通配符出现了一些缺陷，使得其有特定的使用场景。  
+
 * 无限定通配符 <?>
-```md
+
 <?> 代表着类型未知
-```
+
 ```java
 List<?> list1 = new ArrayList<String>();    // 合法
 List<?> list2 = new ArrayList<?>();         // 不合法
@@ -89,6 +91,7 @@ public void testSuper(Collection<? super Sub> para){
 ***可以为一个泛型指定上边界或下边界, 但是不能同时指定上下边界。***
 
 * 通配符 vs. 与类型参数
+
 ```java
 一般而言，通配符能干的事情都可以用类型参数替换。 
 比如
