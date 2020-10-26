@@ -22,7 +22,7 @@ public @interface TestAnnotation {
     public String msg() default "Hi";
 }
 
-	@Target(ElementType.TYPE)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface TestAnnotation {
 
