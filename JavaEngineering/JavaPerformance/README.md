@@ -1,11 +1,5 @@
 # Java Performance
 
-## Performance Optimization
-* System Performance
-* [JVM Performance](JVM-perf.md)
-* Java Application Performance
-* Java Code Performance
-
 ## Tools
 * [JVM tools](../java-jvm/jvm-tools/README.md)
 * [jvmtop - monitor all accessible, running jvms on a machine.](https://github.com/patric-r/jvmtop)
